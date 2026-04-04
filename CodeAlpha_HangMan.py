@@ -6,7 +6,7 @@ data_bank = {
     "Flower": ["rose", "lotus", "tulip", "jasmine", "lily"],
     "Country": ["india", "japan", "brazil", "canada", "france", "germany", "italy"],
     "Animal": ["tiger", "elephant", "rabbit", "giraffe", "monkey", "zebra", "panther"],
-    "Foot Ball Player":["Messi","neymar","kaka","ronaldo"]
+    "Football Player":["Messi","neymar","ronaldo"]
         }
 phrases = [
     "Before the hangman arrives, guess the {cat}!",
