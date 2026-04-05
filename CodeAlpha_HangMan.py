@@ -60,10 +60,10 @@ def play(event=None):
     char = input_box.get().lower()
     input_box.delete(0, tk.END)
     if len(char) != 1 or not char.isalpha():
-        popup("WAIT! ✋", "Please enter exactly one letter (A-Z).", "#f1c40f")
+        popup("WAIT! ", "Please enter exactly one letter (A-Z).", "#f1c40f")
         return
     if char in guesses:
-        popup("ALREADY USED 🔁", f"You already tried '{char.upper()}'. Try something else!", "#3498db")
+        popup("ALREADY USED ", f"You already tried '{char.upper()}'. Try something else!", "#3498db")
         return
     guesses.append(char)
     if char not in word:
